@@ -3,7 +3,7 @@ import { HomeContainer } from './styles';
 import { LogoCITi, Foto } from '../../assets';
 import "./style.css";
 
-export const Home: React.FC = () => {
+export const Home = () => {
     function changeText(){
         let text = document.getElementById("text");
         if(text) {
